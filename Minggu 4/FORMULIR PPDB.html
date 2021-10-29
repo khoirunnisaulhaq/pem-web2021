@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>FORMULIR PPDB</title>
+    </head>
+    <body>
+        <h1>FORMULIR PPDB JALUR ZONASI TAHUN 2021</h1>
+        <form action="proses.php" method="post" name="fcontoh">
+        <table>
+           <h2>INFO PENDAFTARAN</h2>
+           <tr>
+               <td>1.</td>
+               <td><label for="fmim"> NISN :</label></td>
+               <td><input type="text" id="fnisn" name="fnisn" placeholder="Nomer NISN"></td>
+           </tr>
+
+           <tr>
+               <td>2.</td>
+               <td><label for="fasalsekolah"> Asal Sekolah :</label></td>
+               <td><select id="asalsekolah" name="fasalsekolah">
+               <option value=""> Pilih Asal Sekolah</option>
+               <option value="01"> SMKN 1 KENDAL</option>
+               <option value="02"> SMKN 2 KENDAL</option>
+               <option value="03"> SMKN 3 KENDAL</option>
+               <option value="04"> SMKN 4 KENDAL</option>
+			   <option value="05"> SMKN 5 KENDAL</option>
+               </select></td>
+           </tr>
+
+           <tr>
+               <td>3.</td>
+               <td><label for="ftahunlulus"> Tahun Lulus : </label> </td>
+               <td><input type="number" id="ftahunlulus"  min="2019" max="2021" name="ftahunLulus"></td>
+           </tr>
+       </table>
+
+       <table>
+           <h3>DATA CALON PESERTA</h3>
+           <tr>
+               <td>4.</td>
+               <td><label for="fnamalengkap"> Nama Lengkap : </label></td>
+               <td><input type="text" id="fnamalengkap" name="fnamalengkap" placeholder="Nama Lengkap"></td>
+           </tr>
+
+           <tr>
+               <td>5.</td>
+               <td><label for="fnim"> NIK : </label></td>
+               <td><input type="text" id="fnim" name="fnim" placeholder="Masukkan NIK"></td>
+           </tr>
+
+           <tr>
+               <td>6.</td>
+               <td><label for="ftempatlahir"> Tempat Lahir : </label></td>
+               <td><input type="text" id="ftempatlahir" name="tempatLahir" placeholder="Tempat Lahir"></td>
+           </tr>
+
+           <tr>
+		       <td>7.</td>
+               <td><label for="ftanggallahir"> Tanggal Lahir : </label></td>
+               <td><input type="date" id="ftanggallahir" name="ftanggallahir"></td>
+           </tr>
+
+           <tr>
+		       <td>8.</td>
+               <td><label for="fjeniskelamin"> Jenis Kelamin : </label></td>
+               <td><input type="radio" name="fjenisKelamin" id="fkelamin" value="L">Laki-Laki</td>
+               <td><input type="radio" name="fjenisKelamin" id="fkelamin" value="P">Perempuan</td>
+           </tr>
+
+           <tr>
+		       <td>9.</td>
+               <td><label for="famalat"> Alamat : </label></td>
+               <td><textarea name="falamat" id="falamat" rows="4" cols="50" placeholder="Alamat"></textarea></td>
+           </tr>
+
+           <tr>
+		       <td>10.</td>
+               <td><label for="femailAktif"> E-mail Aktif : </label></td>
+               <td><input type="email" id="femailAktif" name="femailAktif" placeholder="email@gmail.com"></td>
+           </tr>
+       </table>
+
+        <table> 
+        <h4>DATA ORANGTUA</h4>
+           <tr>
+		       <td>11.</td>
+               <td><label for="fnomerKK"> Nomer Kartu Keluarga : </label></td>
+               <td><input type="text" id="fnomerKK" name="fnomerKartuKeluarga" placeholder="Masukkan KK"></td>
+           </tr>
+
+           <tr>
+		       <td>12.</td>
+               <td><label for="fnamaAyah"> Nama Ayah :</label></td>
+               <td><input type="text" id="fnamaAyah" name="fnamaAyah" placeholder="Masukkan Nama Ayah"></td>
+           </tr>
+
+           <tr>
+		       <td>13.</td>
+               <td><label for="fagama"> Agama : </label></td>
+               <td><input type="checkbox" id="fagama" name="fagama" value="islam"> Islam </td>
+               <td><input type="checkbox" id="fagama" name="fagama" value="buddha"> Buddha </td>
+               <td><input type="checkbox" id="fagama" name="fagama" value="kristen"> Kristen </td> 
+               <td><input type="checkbox" id="fagama" name="fagama" value="hindu"> Hindu </td>
+           </tr>
+
+           <tr>
+		       <td>14.</td>
+               <td><label for="fpekerjaan"> Pekerjaan : </label></td>
+               <td><select id="fpekerjaan" name="fpekerjaan">
+                   <option value=""> Pilih Pekerjaan::</option>
+                   <option value="pns"> PNS</option>
+                   <option value="guru"> Guru</option>
+				   <option value="wiraswasta"> Wiraswasta</option>
+                   </select></td>
+            </tr>
+
+            <tr>
+			    <td>15.</td>
+                <td><label for="fnamaIbu"> Nama Ibu :</label></td>
+                <td><input type="text" id="fnamaIbu" name="fnamaIbu" placeholder="Masukkan Nama Ibu"></td>
+            </tr>
+ 
+            <tr>
+			    <td>16.</td>
+                <td><label for="fagama"> Agama :</label></td>
+                <td><input type="checkbox" id="fagama" name="fagama" value="islam"> Islam </td>
+                <td><input type="checkbox" id="fagama" name="fagama" value="buddha"> Buddha </td>
+                <td><input type="checkbox" id="fagama" name="fagama" value="kristen"> Kristen </td> 
+                <td><input type="checkbox" id="fagama" name="fagama" value="hindu"> Hindu </td>
+               
+            </tr>
+ 
+            <tr>
+			    <td>17.</td>
+                <td><label for="fpekerjaan"> Pekerjaan : </label></td>
+                <td><select id="fpekerjaan" name="fpekerjaan">
+                    <option value=""> Pilih Pekerjaan::</option>
+                    <option value="pns"> PNS</option>
+                    <option value="guru"> Guru</option>
+					<option value="wiraswasta"> Wiraswasta</option>
+					<option value="ibu rumah tangga"> Ibu Rumah Tangga</option>
+                    </select></td>
+             </tr>            
+
+            <tr>
+			    <td>18.</td>
+                <td><label for="falamatortu"> Alamat Orang Tua : </label></td>
+                <td><textarea id="falamatortu" name="falamatOrangtua" placeholder="Alamat Orang Tua" rows="4" cols="50"></textarea></td>
+            </tr>
+
+            
+            <tr>
+                <td align="right" colspan="100"><input type="submit" name="fsubmit" value="kirim"></td>
+            </tr>
+       
+        </table>
+        </form>    
+    </html>
